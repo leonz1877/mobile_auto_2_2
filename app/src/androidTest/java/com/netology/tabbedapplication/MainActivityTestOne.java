@@ -42,6 +42,7 @@ public class MainActivityTestOne {
                 allOf(withText("TAB 1"),
 //                        withParent(allOf(withContentDescription("Tab 1"),
 //                                withParent(IsInstanceOf.<View>instanceOf(android.widget.LinearLayout.class)))),
+//  сократил указатели тут и далее, посчитал излишним в этом проекте, оставил с комментариями для себя
                         isDisplayed()));
         textView.check(matches(withText("TAB 1")));
 
